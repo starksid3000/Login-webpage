@@ -1,11 +1,13 @@
 .login-div
 {
+    display: block;
+    margin: auto;
     width: 430px;
     height: 700px;
     padding: 60px 35px 35px 35px;
     border-radius: 40px;
     background: #ecf0f3;
-    box-shadow: 13px 13px 20px #cdced1, -13px -13pz 20px #ffffff;
+    box-shadow: 13px 13px 20px #cdced1, -13px -13px 20px #ffffff;
 }
 .logo{
     background: url("../img/ironman.png") no-repeat center center/cover;
@@ -49,7 +51,7 @@
 .username, .password{
     margin-bottom: 30px;
     border-radius: 25px;
-    padding-left:35px;
+    padding-left: 35px;
     box-shadow: inset 8px 8px 8px #cdced1,inset -8px -8px 8px #ffffff;
 }
 .fields svg{
@@ -86,4 +88,10 @@
     text-decoration: none;
     color: #aaa;
     font-size: 15px;
+}
+.link a:hover{
+    color: #1da88a;
+}
+.link a:active{
+    color: blue;
 }
